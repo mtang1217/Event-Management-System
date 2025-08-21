@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Event_Management_System_b3405cf1"
+        },
+        {
+            "type": "java",
             "name": "EventManagementSystem",
             "request": "launch",
             "mainClass": "EventManagementSystem",

@@ -17,9 +17,10 @@ abstract class Event{
     }
 
     public void registerParticipant(String participantName){
-        if (registeredParticipants.size() < maxCapacity){
-            registeredParticipants.add(participantName);
+        if (isFull()) {
+            throw new IllegalStateException("Event is full: cannot add " + participantName);
         }
+        registeredParticipants.add(participantName);
     }
     public int getCurrentRegistrations(){
         return registeredParticipants.size();

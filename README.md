@@ -1,1 +1,2 @@
 # Event-Management-System
+A simple Java application for managing university events, including academic conferences, student workshops, and sports tournaments. Demonstrates object-oriented programming (OOP), inheritance, abstract classes, and Java Streams.
