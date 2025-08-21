@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "EventManagementSystem",
+            "request": "launch",
+            "mainClass": "EventManagementSystem",
+            "projectName": "Event_Management_System_b3405cf1"
+        },
         {
             "type": "java",
             "name": "Current File",
